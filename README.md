@@ -34,6 +34,6 @@ And ofcourse, they are all game. Non of them have practical use for the society,
 ## dic.txt ##
 This file is a compilation from this [site](http://www.ef.com/english-resources/english-vocabulary/top-1000-words/)
 Props to them.
-=====
 
+------
 That should be it.
