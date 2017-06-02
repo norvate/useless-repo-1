@@ -7,8 +7,6 @@ And also the project is unfinish.
 *As you can see, most of them are written in Ruby. I think it'd be more ideal if they were compiled to machine code, which is something i were trying to do, after finish this ofcourse.*
 
 ### The Hecknet Replicate ###
------
-
 *It's not 'Replicate' though, my thesaurus is poor so let's go with it. Sorry.*
 
 ## core.rb ##
