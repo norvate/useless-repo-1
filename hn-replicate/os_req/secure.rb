@@ -5,7 +5,7 @@ def breech_detected_init_pass
 
 	puts "WARNING!! Security Breech found!"; sleep(1)
 	puts "Initialize new PASSWORD for 'root'"
-	#3.times{ print '.'; sleep(1)}; print "\n"; 
+	3.times{ print '.'; sleep(1)}; print "\n"; 
 	40.times{ print '-'; sleep(0.07)}; print "\n"
 
 	puts "$INITPASS1: #{$INITPASS1 = rand(Time.new.day * Time.new.sec)}"; sleep(1)
@@ -28,9 +28,9 @@ end
 
 def login(brch)
 	puts "Loading users list..."
-	#print "Found: "; sleep(2); puts "'root'"; sleep(0.3);
-	#puts "Login as 'root'..."; sleep(0.6);
-	#40.times { print '-'; sleep(0.005) }; print "\n"
+	print "Found: "; sleep(2); puts "'root'"; sleep(0.3);
+	puts "Login as 'root'..."; sleep(0.6);
+	40.times { print '-'; sleep(0.005) }; print "\n"
 
 	breech_detected_init_pass if brch
 
