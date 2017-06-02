@@ -72,8 +72,3 @@ def replace(st1, st2, occurrence = 1)
 rescue NoMethodError
 	puts "Occurrence #{occurrence} for '#{st1}' not found.\nChange was not made."
 end
-
-=begin
-$ACTIVE = "D:/P/$/@test/girl.ls"
-replace('loli', 'shipgirl')
-=end
