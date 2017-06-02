@@ -6,7 +6,7 @@ And also the project is unfinish.
 
 *As you can see, most of them are written in Ruby. I think it'd be more ideal if they were compiled to machine code, which is something i were trying to do, after finish this ofcourse.*
 
-### The Hecknet Replicate ###
+# The Hecknet Replicate #
 *It's not 'Replicate' though, my thesaurus is poor so let's go with it. Sorry.*
 
 ## core.rb ##
@@ -19,8 +19,9 @@ cd("./rab/oof")
 ## secure.rb ##
 *Was trying to create some pseudo-hacking puzzle-solving console-based game, but have yet to finish any.*
 
-# login() #
+### login() ###
 Perform login, start the challenge.
+
 -----
 *Password-solving purpose script*
 ## guess.rb ##
