@@ -24,9 +24,12 @@ The project is unfinish.
 This file contains simple Unix-style commands that let you move around, doing inspection with computer file system.
 
 ## secure.rb ##
+
 *Was trying to create some pseudo-hacking puzzle-solving console-based game, but have yet to finish any.*
 Protection layer.
+
 -----
+
 *Password-solving purpose script*
 ## guess.rb ##
 This script helps you guess the password. Based on Fallout 4 Hacking minigame. ~~pls dont copyright this~~
