@@ -13,10 +13,15 @@ The project is unfinish.
   
   *You just being an ordinary PC user, then one day, there was a terminal start up right after every boot.*
   TOs--
+  
       |-/home/
+      
       |-/etc/
+      
       |-/tools/
+      
       |-/trashbin/
+      
       |-/mail/
 
 ## core.rb ##
