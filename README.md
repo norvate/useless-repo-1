@@ -12,18 +12,14 @@ The project is unfinish.
   But later people found there was traces of an organization. There was encrypted message in /mail/root*
   
   *You just being an ordinary PC user, then one day, there was a terminal start up right after every boot.*
+  ```
   TOs--
-  
-      |-/home/
-      
+      |-/home/    
       |-/etc/
-      
       |-/tools/
-      
       |-/trashbin/
-      
       |-/mail/
-
+   ```
 ## core.rb ##
 This file contains simple Unix-style commands that let you move around, doing inspection with computer file system.
 The only different is, you must put command opt inside quote marks and inside a pair parenthesis. (Because Ruby, I am sorry)
