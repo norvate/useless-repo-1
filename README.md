@@ -7,11 +7,11 @@ The project is unfinish.
 *As you can see, most of them are written in Ruby. I think it'd be more ideal if they were compiled to machine code.*
 
 # TOs #
-  *TOs is a myth Operating System. There are rumors about this one around corners of the internet.*
-  *TOs was original from a small devs team, way back in the 90's. Purpose was mostly of personal uses.
-  But later people found there was traces of an organization.*
+  *TOs is a myth Operating System. There are rumors about it around corners of the internet.*
+  *TOs was original from a small devs team, way back in the 90's. Purpose were mostly of personal uses.
+  But later people found there were traces of an organization.*
   
-  *You're just an ordinary PC user, then one day, there was a terminal start up right after every boot.*
+  *You're just an ordinary PC user, then one day, there is a terminal start up every time right after boot.*
   ```
   TOs--
       |-/data/    
