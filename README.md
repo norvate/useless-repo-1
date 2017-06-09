@@ -7,14 +7,14 @@ The project is unfinish.
 *As you can see, most of them are written in Ruby. I think it'd be more ideal if they were compiled to machine code.*
 
 # TOs #
-  *TOs is a myth Operating System. There are rumors about this one around some deep corner of the internet.*
+  *TOs is a myth Operating System. There are rumors about this one around corners of the internet.*
   *TOs was original from a small devs team, way back in the 90's. Purpose was mostly of personal uses.
-  But later people found there was traces of an organization. There was encrypted message in /mail/root*
+  But later people found there was traces of an organization.*
   
-  *You just being an ordinary PC user, then one day, there was a terminal start up right after every boot.*
+  *You're just an ordinary PC user, then one day, there was a terminal start up right after every boot.*
   ```
   TOs--
-      |-/home/    
+      |-/data/    
       |-/etc/
       |-/tools/
       |-/trashbin/
@@ -24,7 +24,6 @@ The project is unfinish.
 This file contains simple Unix-style commands that let you move around, doing inspection with computer file system.
 
 ## secure.rb ##
-
 *Was trying to create some pseudo-hacking puzzle-solving console-based game, but have yet to finish any.*
 Protection layer.
 
@@ -33,11 +32,11 @@ Protection layer.
 *Password-solving purpose script*
 ## guess.rb ##
 This script helps you guess the password. Based on Fallout 4 Hacking minigame. ~~pls dont copyright this~~
-You have a number of tries to guess the password. After every wrong guess, you'll be prompted a number called 'LIKELINESS'. It means, the word you guessed have a 'LIKELINESS' number of characters that are in the same position in the password.
-There are currently two kind of help you can use:
+You have a number of tries to guess the password. After every wrong guess, you'll received a number called 'LIKELINESS'. It means, the word you guessed have a 'LIKELINESS' number of characters that are in the same position in the password.
+There are currently two kind of tools you can use:
 
 ### assist.rb ###
-There are tools in here that will give you some clue to solving the password.
+These tools in here that will give you some clue to solving the password.
 Doesn't cost any 'TRIES'.
 
 ### breech.rb ###
