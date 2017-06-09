@@ -4,14 +4,14 @@ def breech_detected_init_pass
 	require 'base64'
 
 	puts " WARNING!! Security Breech found!"; sleep(1)
-	puts " Initialize new PASSWORD for 'root'"
+	puts " Initialize new PASSWORD for 'root'"; sleep(0.5)
 	#3.times{ print '.'; sleep(1)}; print "\n"; 
 	40.times{ print '-'; sleep(0.07)}; print "\n"
 
-	puts "$INITPASS1: #{$INITPASS1 = rand(Time.new.day * Time.new.sec)}"; sleep(1)
-	puts "$INITPASS2: #{$INITPASS2 = rand(Time.new.year * Time.new.min / rand(Time.new.sec))+1}"; sleep(1)
+	puts "INITPw1: #{$INITPASS1 = rand(Time.new.day * Time.new.sec)}"; sleep(1)
+	puts "INITPw2: #{$INITPASS2 = rand(Time.new.year * Time.new.min / rand(Time.new.sec)+1)}\n"; sleep(1)
 
-	f = File.new("./os_req/dic.txt")
+	f = File.new($PWD + "/data/dic.txt")
 	arr = IO.readlines(f)
 
 	arr = arr[$INITPASS1 % 13]
@@ -26,23 +26,24 @@ def breech_detected_init_pass
 	$PWLENG = Base64.decode64($PASSWORD).length
 end
 
-def login(brch)
+def login
 	puts "Loading users list..."
-	#print "Found: "; sleep(2); puts "'root'"; sleep(0.3);
-	#puts "Login as 'root'..."; sleep(0.6);
-	#40.times { print '-'; sleep(0.005) }; print "\n"
+	print "Found: "; sleep(2); puts "'root';"; sleep(0.3);
+	puts "Login as 'root'..."; sleep(0.6);
+	40.times { print '-'; sleep(0.005) }; print "\n"
 
-	breech_detected_init_pass if brch
+	breech_detected_init_pass if $BREECH
 
-	puts "USERNAME< root"
-	puts "PASSWORD< "
-
-	Dir.chdir(File.expand_path('.'))
+	print "USERNAME<"; sleep(0.3); puts " root"; sleep(0.3)
+	puts "PASSWORD< \n"; sleep(0.5)
 
 	puts "Loading guessing protocol..."; sleep(0.7);
-	require_relative './guess.rb'
-rescue
+
+	load $PWD + '/tools/guess.rb'
+	return
+rescue => e
 	puts "Load failed: File missing"
+	puts e.message
 end
 
-"login".split(" ").each{ |cmd| $METHOD[cmd.to_sym] = true }
+[:login].each{ |cmd| $METHOD[cmd] = true }

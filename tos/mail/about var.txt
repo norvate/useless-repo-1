@@ -1,0 +1,14 @@
+From: __D__@tos.mail
+To: tos-hub
+Sent: -/REDACTED/-
+-------------------------------------------
+$PWD : process working dir
+$BREECH : state of recent breech was detected and not fixed
+$METHOD : hash, available commands
+
+and some other var
+$INITPASS1
+$INITPASS2 
+$PASSWORD
+$PWLENG
+									__D__
