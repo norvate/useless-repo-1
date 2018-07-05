@@ -1,10 +1,8 @@
 This repo is useless, was some kind of practice i were doing. Here is the rundown. If you care.
-This repo was created inspired by the game Hacknet. It's a good opportunity to practice coding and using Github.
-
 It's a simulation, a game to be exact. Where you'll need to get admin access.
-The project is unfinish.
 
-*As you can see, most of them are written in Ruby. I think it'd be more ideal if they were compiled to machine code.*
+The project is unfinished.
+ruby sucks
 
 # TOs #
   *TOs is a myth Operating System. There are rumors about it around corners of the internet.*
