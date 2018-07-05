@@ -5,11 +5,11 @@ The project is unfinished.
 ruby sucks
 
 # TOs #
-  *TOs is a myth Operating System. There are rumors about it around corners of the internet.*
-  *TOs was original from a small devs team, way back in the 90's. Purpose were mostly of personal uses.
-  But later people found there were traces of an organization.*
+  *TOs is a myth Operating System. There are rumors about it in every corner of the internet.*
+  *TOs was original a college project, right after the transistor revolution. Although it was made by amateur, hobbyist programmer
+  but later on traces of the infamous internet breachers group were found.*
   
-  *You're just an ordinary PC user, then one day, there is a terminal start up every time right after boot.*
+  *You found this PC inside a vintage, old-fashioned television that was laying around in the attic.*
   ```
   TOs--
       |-/data/    
@@ -19,7 +19,7 @@ ruby sucks
       |-/mail/
    ```
 ## core.rb ##
-This file contains simple Unix-style commands that let you move around, doing inspection with computer file system.
+This file contains simple Unix-style commands that let you operate, doing inspection with computer file system.
 
 ## secure.rb ##
 *Was trying to create some pseudo-hacking puzzle-solving console-based game, but have yet to finish any.*
@@ -29,7 +29,7 @@ Protection layer.
 
 *Password-solving purpose script*
 ## guess.rb ##
-This script helps you guess the password. Based on Fallout 4 Hacking minigame. ~~pls dont copyright this~~
+This script allows you to guess the password. Based on Fallout 4 Hacking minigame. ~~pls dont copyright this~~
 You have a number of tries to guess the password. After every wrong guess, you'll received a number called 'LIKELINESS'. It means, the word you've guessed have 'LIKELINESS' characters that are in the same position as in the password.
 
 
