@@ -30,7 +30,7 @@ Protection layer.
 *Password-solving purpose script*
 ## guess.rb ##
 This script allows you to guess the password. Based on Fallout 4 Hacking minigame. ~~pls dont copyright this~~
-You have a number of tries to guess the password. After every wrong guess, you'll received a number called 'LIKELINESS'. It means, the word you've guessed have 'LIKELINESS' characters that are in the same position as in the password.
+You have an amount of tries to guess the password. After every incorrect attempt, you'll received a number called 'LIKELINESS'. It means, the word you've guessed have the 'LIKELINESS' amount of letters that are in the same position as in the password.
 
 
 There are currently two type of tools you can use:
@@ -45,6 +45,7 @@ Mostly costs 'TRIES', some may costs more than 1, some doesn't cost any at all.
 
 ## dic.txt ##
 This file is a compilation from this [site](http://www.ef.com/english-resources/english-vocabulary/top-1000-words/)
+
 Props to them.
 
 ------
